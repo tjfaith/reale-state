@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+
+
+.row {
+    max-width: 1140px;
+    margin: 0 0; 
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+} 
+
+
+html,
+body {
+    background-color: #f8f9fa;;
+    color: #555555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+}
+.header {
+    background-color: #d63384;
+    display: block;
+    height: 200%;
+    width: 500%;
+}
+.main-nav {
+    color: #d63384;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 43%;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+   }
+
+   .row li {
+    display: inline-block;
+    margin: 20px 15px;
+   }
+   
+   h1 {
+    color: #500ad0;
+    font-size: 300%;
+   }
+
+   h2 {
+    /* color: #500ad0; */
+    font-size: 150%;
+    word-spacing: 1px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    /* margin-left: 30%; */
+   }
+   /* h3 {
+    font-size: 120%;
+    word-spacing: 1px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+   } */
+   .hero-text h1 {
+    float: left;
+    margin-left: 15%;
+    margin-top: 15%;
+   }
+
+   .hero-text img {
+    float: right;
+    width: 23%;
+    margin-right: 25%;
+   }
+   .hero-text p {
+    float: left;
+    margin-left: 15%;
+    font-size: 85%;
+   }
+.hero {
+    margin-bottom: 5%;
+}
+
+/* BTN */
+
+.btn-all {
+    border-radius: 50px;
+    border: 1px solid #d63384;
+    background-color: #d63384;
+}
+
+.btn-account {
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #d63384;
+    padding: 8px 12px;
+}
+.btn-member {
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 15%; 
+}
+
+.section-start {
+    background-color: #fff;
+}
+.long-copy {
+    margin-left: 30%;
+    width: 70%;
+    font-size: 85%;
+    text-align: center;
+}
+
+/* SECTION START */
+.box {
+    background-color: #f7f6f6;
+    /* border-radius: 5px; */
+    width: 100%;
+    margin-left: 20%;
+    height: 90%;
+    width: 90%;
+    box-shadow: 0 2px 2px #efefef;
+    padding: 100px;
+}
+/* .box-one {
+
+}
+.box-two {
+    
+} */
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+.section-form h2 {
+    margin-left: 30%;
+}
